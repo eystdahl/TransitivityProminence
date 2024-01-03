@@ -81,9 +81,6 @@ barplot(TransPromProportion, ylim = range(0:100), sub = "Relative proportion of 
 
 #Make a matrix of transitivity prominence values based on Creissels' (2018b) verb list
 
-
-# Make a matrix of transitivity prominence values based on Haspelmath's (2015) verb list
-
 TransProm2 <- matrix(c(14, 14, 15, 19, 7, 7.5, 6, 3.5, 9, 4.5, 12, 5.5), ncol = 4, byrow = TRUE)
 
 # Add colnames and rownames
